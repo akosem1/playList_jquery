@@ -1,0 +1,130 @@
+
+.red {background-color: red}
+.blue {background-color: blue}
+.green {background-color: green}
+.black {background-color: black}
+
+ body{
+ 		background-color: black;
+ }
+
+.container{
+	  width: 80%;
+
+}
+
+main{
+
+	margin: 0 auto;
+
+
+}
+
+ #player_row{
+ 	
+ 	
+ 	margin: 5rem;
+
+ 	
+ }
+
+.folderBox{
+margin: 0.5rem;
+border-style: solid;
+border-color: #10755a;
+min-width: 20%;
+max-height: 250px; min-height: 250px;
+overflow-x: hidden;
+
+  background-image: url("img/bg.jpg");
+  background-repeat:repeat;
+}
+
+
+
+.folderBox img{
+width: 100px; height: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.listSong{
+	font-size: 2rem;
+}
+
+.btnListSong{
+	font-size: 1.5rem;
+    border: none;
+    padding: 0px 16px;
+    text-decoration: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+.btnListSong:hover{
+/* 	border-style: solid;
+	border-color: red; */
+	color: #24d4a4;
+	box-shadow: inset 10px 0 5px 0px #24d4a4;
+   
+}
+
+.activeSong{
+    
+    box-shadow: inset 10px 0 5px 0px #24d4a4;
+    border-color: #24d4a4;
+    color: #49ff48;
+    
+
+}
+ 
+
+.folderBox::-webkit-scrollbar {
+  width: 8px;
+}
+.folderBox::-webkit-scrollbar-track {
+  background: #10755a;
+  border-radius: 10px;
+}
+.folderBox::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ffffff;  
+}
+.folderBox::-webkit-scrollbar-thumb:hover {
+  background: #24d4a4;  
+}
+ 
+
+ @font-face {
+   font-family: FrankRuhl;
+   src: url(FrankRuhl.woff2);
+}
+
+ul, span, h1 {
+   
+ 
+ font-family: FrankRuhl;
+  color: white;
+  
+}
+  
+
+
+@media screen  and (max-width: 667px) {
+.container {
+  width: 100%;
+  }
+
+.listSong{
+  font-size: 3.5rem;
+}
+
+.btnListSong{
+  font-size: 2.5rem;
+}
+
+}
+
